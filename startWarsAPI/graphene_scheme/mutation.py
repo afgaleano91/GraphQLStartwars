@@ -2,38 +2,53 @@ import graphene
 from graphQLStartwars.models import *
 from .types import *
 
-class CreateCategoryMutation(graphene.Mutation):
+class CreatePeopleMutation(graphene.Mutation):
     class Input:
-        name = graphene.String()
+        name = graphene.String(required=True)
 
-    name = graphene.Field(CategoryType)
+    people = graphene.Field(PeopleType)
 
     @staticmethod
     def mutate(root, info, **kwargs):
         name = kwargs.get('name', '').strip()
-        obj = Category.objects.create(name=name)
-        return CreateCategoryMutation(name=obj)
+        obj = People.objects.create(name=name)
+        return CreatePeopleMutation(people=obj)
+
+class CreatePlanetMutation(graphene.Mutation):
+    class Input:
+        name = graphene.String(required=True)
+        gravity = graphene.String()
+    
+    planet = graphene.Field(PlanetType)
+
+    @staticmethod
+    def mutate(root, info, **kwargs):
+        name = kwargs.get('name', '').strip()
+        gravity = kwargs.get('gravity', '').strip()
+        obj = Planet.objects.create(name=name, gravity=gravity)
+        return CreatePlanetMutation(planet=obj)
 
 class CreateMovieMutation(graphene.Mutation):
     class Input(object):
-        name = graphene.String()
-        year = graphene.Int()
-        rating = graphene.Int()
-        category_id = graphene.Int()
+        title = graphene.String(required=True)
+        opening_crawl = graphene.String(required=True)
+        director = graphene.String(required=True)
+        producers = graphene.String(required=True)
     
-    name = graphene.Field(MovieType)
+    movie = graphene.Field(MovieType)
 
     @staticmethod
     def mutate(root, info, **kwargs):
-        name = kwargs.get('name', '').strip()
-        year = kwargs.get('year', 0)
-        rating = kwargs.get('rating', 0)
-        category_id = kwargs.get('category_id', 0)
+        title = kwargs.get('title', '').strip()
+        opening_crawl = kwargs.get('opening_crawl', '')
+        director = kwargs.get('director', '')
+        producers = kwargs.get('producers', '')
 
-        obj = Movie.objects.create(name=name, year=year, rating=rating, category_id= category_id)
+        obj = Movie.objects.create(title=title, opening_crawl=opening_crawl, director=director, producers= producers)
 
-        return CreateMovieMutation(name=obj)
+        return CreateMovieMutation(movie=obj)
 
 class Mutation(graphene.AbstractType):
-    create_category = CreateCategoryMutation.Field()
+    create_people = CreatePeopleMutation.Field()
+    create_planet = CreatePlanetMutation.Field()
     create_movie = CreateMovieMutation.Field()

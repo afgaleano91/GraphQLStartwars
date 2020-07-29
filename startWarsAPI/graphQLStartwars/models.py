@@ -1,16 +1,27 @@
 from django.db import models
 
-class Category(models.Model):
-    name = models.CharField(max_length=50, unique=True)
+class People(models.Model):
+    name = models.CharField(max_length=200)
+    created_at = models.DateTimeField(auto_now=True)
+    movies = models.ManyToManyField('Movie')
+
+    def __str__(self):
+        return self.name
+
+class Planet(models.Model):
+    name = models.CharField(max_length=200)
+    gravity = models.CharField(max_length=200, null=True)
+    created_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.name
 
 class Movie(models.Model):
-    name = models.CharField(max_length=50)
-    year = models.IntegerField()
-    rating = models.IntegerField()
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    title = models.CharField(max_length=255)
+    opening_crawl = models.TextField()
+    planets = models.ManyToManyField('Planet')
+    director = models.CharField(max_length=255)
+    producers = models.CharField(max_length=255)
 
     def __str__(self):
-        return self.name + " - " + str(self.year)
+        return self.title

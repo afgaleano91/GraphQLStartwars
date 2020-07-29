@@ -2,35 +2,51 @@ import graphene
 
 from graphene_django.types import DjangoObjectType
 
-from graphQLStartwars.models import Category, Movie
+from graphQLStartwars.models import People, Movie, Planet
 
-class CategoryType(DjangoObjectType):
+class PeopleType(DjangoObjectType):
     class Meta:
-        model = Category
+        model = People
+
+class PlanetType(DjangoObjectType):
+    class Meta:
+        model = Planet
 
 class MovieType(DjangoObjectType):
     class Meta:
         model = Movie
 
 class Query(object):
-    movie = graphene.Field(MovieType, id=graphene.Int(), name=graphene.String())
-    all_categories = graphene.List(CategoryType)
+    movie = graphene.Field(MovieType, id=graphene.Int(), title=graphene.String())
+    all_planet = graphene.List(PlanetType)
+    all_people = graphene.List(PeopleType)
     all_movies = graphene.List(MovieType)
 
-    def resolve_all_categories(self, info, **kwargs):
-        return Category.objects.all()
+    def resolve_all_people(self, info, **kwargs):
+        return People.objects.all()
+    
+    def resolve_all_planet(self, info, **kwargs):
+        return Planet.objects.all()
 
     def resolve_all_movies(self, info, **kwargs):
-        return Movie.objects.select_related('category').all()
+        return Movie.objects.all()
+
+    def resolve_people(self, info, **kwargs):
+        name = kwargs.get('name')
+
+        if name is not None:
+            return People.objects.get(name=name)
+
+        return People.objects.all()
 
     def resolve_movie(self, info, **kwargs):
         id = kwargs.get('id')
-        name = kwargs.get('name')
+        title = kwargs.get('title')
 
-        if id is None:
-            return Movie.objects.select_related('category').get(pk=id)
+        if id is not None:
+            return Movie.objects.get(pk=id)
         
-        if name is None:
-            return Movie.objects.select_related('category').get(name=name)
+        if title is not None:
+            return Movie.objects.get(title=title)
 
         return None

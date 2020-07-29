@@ -1,0 +1,543 @@
+[
+    {
+        "fields": {
+            "name": "Tatooine",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "Alderaan",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "Yavin IV",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "name": "Hoth",
+            "gravity": "1.1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "name": "Dagobah",
+            "gravity": "N/A",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "name": "Bespin",
+            "gravity": "1.5 (surface), 1 standard (Cloud City)",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "name": "Endor",
+            "gravity": "0.85 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "name": "Naboo",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "name": "Coruscant",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "name": "Kamino",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "name": "Geonosis",
+            "gravity": "0.9 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "name": "Utapau",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "name": "Mustafar",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "name": "Kashyyyk",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "name": "Polis Massa",
+            "gravity": "0.56 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "name": "Mygeeto",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "name": "Felucia",
+            "gravity": "0.75 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "name": "Cato Neimoidia",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "name": "Saleucami",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "name": "Stewjon",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "name": "Eriadu",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "name": "Corellia",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "name": "Rodia",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "name": "Nal Hutta",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "name": "Dantooine",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "name": "Bestine IV",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "name": "Ord Mantell",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "name": "unknown",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "name": "Trandosha",
+            "gravity": "0.62 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "name": "Socorro",
+            "gravity": "1 standard",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "name": "Mon Cala",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 31
+    },
+    {
+        "fields": {
+            "name": "Chandrila",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "name": "Sullust",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "name": "Toydaria",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 34
+    },
+    {
+        "fields": {
+            "name": "Malastare",
+            "gravity": "1.56",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 35
+    },
+    {
+        "fields": {
+            "name": "Dathomir",
+            "gravity": "0.9",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "name": "Ryloth",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "name": "Aleen Minor",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "name": "Vulpter",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 39
+    },
+    {
+        "fields": {
+            "name": "Troiken",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "name": "Tund",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "name": "Haruun Kal",
+            "gravity": "0.98",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "name": "Cerea",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "name": "Glee Anselm",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "name": "Iridonia",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 45
+    },
+    {
+        "fields": {
+            "name": "Tholoth",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 46
+    },
+    {
+        "fields": {
+            "name": "Iktotch",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 47
+    },
+    {
+        "fields": {
+            "name": "Quermia",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 48
+    },
+    {
+        "fields": {
+            "name": "Dorin",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 49
+    },
+    {
+        "fields": {
+            "name": "Champala",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 50
+    },
+    {
+        "fields": {
+            "name": "Mirial",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 51
+    },
+    {
+        "fields": {
+            "name": "Serenno",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 52
+    },
+    {
+        "fields": {
+            "name": "Concord Dawn",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 53
+    },
+    {
+        "fields": {
+            "name": "Zolan",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 54
+    },
+    {
+        "fields": {
+            "name": "Ojom",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 55
+    },
+    {
+        "fields": {
+            "name": "Skako",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 56
+    },
+    {
+        "fields": {
+            "name": "Muunilinst",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 57
+    },
+    {
+        "fields": {
+            "name": "Shili",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 58
+    },
+    {
+        "fields": {
+            "name": "Kalee",
+            "gravity": "1",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 59
+    },
+    {
+        "fields": {
+            "name": "Umbara",
+            "gravity": "unknown",
+            "created_at": "2020-07-29T04:26:53.534Z"
+        },
+        "model": "graphQLStartwars.Planet",
+        "pk": 60
+    }
+ ]
+ 
